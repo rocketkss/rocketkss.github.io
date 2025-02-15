@@ -7,6 +7,10 @@
     z-index: 1;
   }
   
+  .row{
+    margin: 0px 15px;
+  }
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -29,6 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom:0px;
   }
   
   .menu a {
@@ -67,8 +72,8 @@
     vertical-align: middle;
     text-decoration: none;
     width: 220px;
-    margin: auto;
     padding: 1rem 4rem;
+    margin: 10px auto;
     font-weight: bold;
     border: 2px solid #ED1A3D;
     background: #ED1A3D;
@@ -89,6 +94,7 @@
       top: 70px;
       left: 0;
       width: 100%;
+      padding-left:0px;
       z-index: 1;
       transform: scale(1, 0);
       transform-origin: top;
@@ -122,7 +128,7 @@
 	text-align: center;
 	text-decoration: none;
 	size: 12%, 20px;
-	margin: auto;
+  margin: 10px auto;
 	padding: 1rem 4rem;
 	font-weight: bold;
 	border: 2px solid #ED1A3D;
@@ -146,7 +152,7 @@
 
 .main2 {
   background-color:#000000;
-  height: 500px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -156,13 +162,7 @@
     max-width: 100%;
     position: relative;
     top: 100vh;
-    margin: 10px 0px
-    
-  }
-.container2 {
-    max-width: 100%;
-    position: relative;
-    top: 400px;
+    padding: 0px 0px;
     margin: 10px 0px
     
   }
@@ -187,15 +187,22 @@ p {
 }
 .intro {
   text-align: center;
-  font-family: 'Kiwi Maru', serif ;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  color:#000000;
+  }
+.desc {
+  text-align: left;
+  padding: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   color:#000000;
   }
 .title2 {
   position: relative;
-  top: 150px;
+  top: 340px;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   h1{
       font-family: 'Kiwi Maru', serif;
       text-align: center;
@@ -220,21 +227,14 @@ p {
   }
   .main2 {
     background-color:#000000;
-    height: 300px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
   }
-  .container2 {
-    max-width: 100%;
-    position: relative;
-    top: 200px;
-    margin: 10px 0px
-    
-  }
   .title2 {
     position: relative;
-    top: 120px;
+    top: 280px;
   }
 }
 section {
@@ -253,11 +253,9 @@ hr {
 }
 
 .box {
-  padding: 0.5em 1em;
-  margin: 2em 0;
+  padding: 15px 5px;
+  margin: 0px 15px;
   border: solid 3px #000000;
-  margin: 0; 
-  padding: 0;
   text-align: center;
   font-family: 'Kiwi Maru', serif;
   font-size: 20px;
@@ -284,6 +282,8 @@ hr {
 
 
 .footer {
+  position: relative;
+  top: 25px;
   font-size: 15px;
   color: #fff;
   background: #1d1e22;
@@ -304,6 +304,101 @@ hr {
   .md-justify-between {
     justify-content: space-between;
   }
+
+  .copyright {
+    text-align: left;
+  }
+}
+
+
+
+.cp_timeline04 {
+  position: relative;
+  top: 120px;
+  margin: 3em auto;
+  padding-bottom: 2em;
+}
+.cp_timeline04:before {
+  position: absolute;
+  top: -30px;
+  left: 45px;
+  width: 3px;
+  height: 100%;
+  content: '';
+  background: #1976d2; /* 青 */
+}
+.cp_timeline04 .timeline_item {
+  margin: 0px 0px 0px 80px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.cp_timeline04 .timeline_item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.cp_timeline04 .timeline_item .time_date .time {
+  font-family: serif;
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 3px;
+  color: rgba(25, 118, 210, 0.1);
+  text-align:left;
+  padding-left: 22px
+}
+.cp_timeline04 .timeline_item .time_date .time:before {
+  position: absolute;
+  top: 50%;
+  left: -39.5px;
+  width: 12px;
+  height: 12px;
+  content: '';
+  border: 3px solid #1976d2;
+  background: #fff;
+  border-radius: 50%;
+}
+.cp_timeline04 .timeline_item .time_date .flag {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #0d47a1;
+  text-align: left;
+  padding-left: 22px;
+  text-align: left;
+
+}
+.cp_timeline04 .timeline_item .desc {
+  font-size: 0.8em;
+  line-height: 20px;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-left: 1px solid #0d47a1;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .time{
+    padding-left: 0px !important;
+    font-size: 5em !important;
+  }
+  .flag{
+    padding-left: 0px !important;
+    font-size: 1.2em !important
+  }
+  .cp_timeline04:before {
+    left: 15px;
+  }
+  .cp_timeline04 .timeline_item .time_date .time:before {
+    left: -29.5px;
+  }
+  .cp_timeline04 .timeline_item {
+    margin: 0px 0px 0px 40px;
+  }
+  .cp_timeline04 .timeline_item .desc {
+    padding-left: 0px;
+    border-top: 1px solid #0d47a1;
+    border-left: none;
+  }
+}
 
   .copyright {
     text-align: left;
