@@ -620,3 +620,86 @@ hr {
  90% {opacity: 1;}
 100% {opacity: 0; transform: scale(1.1);}
 }
+
+.switchdsp{
+  margin: 10px auto;
+  width: 100%;;
+}
+.clicktxt {
+  width: 53vw; 
+  color:#000000;
+  background-color: #ededed;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border:2px solid #000000;
+  text-align: left;
+  display: block;
+  }
+.clickbutton{
+  width: 53vw; 
+  color:#000000;
+  background-color: #ededed;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border:2px solid #000000;
+  text-align: left;
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  .clicktxt{
+    width: 90vw;
+    color:#000000;
+    background-color: #ededed;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border:2px solid #000000;
+    text-align: left;
+    display: block;
+  }
+  .clickbutton{
+    width: 90vw; 
+    color:#000000;
+    background-color: #ededed;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border:2px solid #000000;
+    text-align: left;
+    display: block;
+  }
+  
+}
+
+  
+  .switchdsp input {
+  display: none;
+  }
+  
+  .switchdsp .dsp {
+  padding: -60px 0px 0px 0px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.9s;
+  opacity: 0;
+  }
+  
+  .switchdsp input:checked ~ .dsp {
+  padding: 0px 0px 0px 0px;
+  height: auto;
+  opacity: 1;
+  }
+
+  .fa-angle-down{
+    margin:0px 5px;
+  }
+
+  .fa-external-link-alt{
+    margin:0px 5px;
+  }
