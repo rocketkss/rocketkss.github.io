@@ -155,7 +155,7 @@
 .main {
     background-image: url(image/background1.png);
     background-position: center center;
-    height: 100vh;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -247,7 +247,15 @@ p {
 .col-md-5{
   padding: auto 15px !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  .main {
+    background-image: url(image/background1.png);
+    background-position: center center;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
   .intro2 {
     text-align: left;
     font-family: 'Noto Sans JP', sans-serif;
@@ -318,7 +326,7 @@ hr {
 
 .title {
   position: relative;
-  top: 45vh;
+  top: 350px;
 }
 
 .box {
