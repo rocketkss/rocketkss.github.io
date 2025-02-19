@@ -597,7 +597,7 @@ hr {
   width: 38vw;
   height: 38vw;
   overflow: hidden;
-  margin: 0 auto;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 767px) {
