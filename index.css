@@ -179,7 +179,7 @@
 .container {
     max-width: 100%;
     position: relative;
-    top: 100vh;
+    top: 700px;
     padding: 0px 0px;
     margin: 10px 0px
     
@@ -296,6 +296,14 @@ p {
   .title2 {
     position: relative;
     top: 280px;
+  }
+  .container {
+    max-width: 100%;
+    position: relative;
+    top: 600px;
+    padding: 0px 0px;
+    margin: 10px 0px
+    
   }
 }
 section {
@@ -556,6 +564,22 @@ hr {
 .blogtitle{
   text-align:center;
   width:100%;
+  margin: 10px auto;
+}
+
+.blogindex{
+  text-align:left;
+  width:100%;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+.blogsindex{
+  text-align:left;
+  width:100%;
+  font-size: 18px;
+  font-weight: bold;
   margin: 10px auto;
 }
 
