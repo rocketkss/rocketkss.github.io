@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'LineFont';
+	src: url(LINESeedJP_A_TTF_Rg.ttf);
+}
+@font-face {
+	font-family: 'LineFontEb';
+	src: url(LINESeedJP_A_TTF_Eb.ttf);
+}
+
+strong{
+  font-family: 'LineFontEb';
+}
 .header {
     position: fixed;
     top: 0;
@@ -26,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 5px 30px;
   }
   
   .logo a {
@@ -102,7 +114,7 @@
       background-color: #151418;
       align-items: start;
       position: absolute;
-      top: 70px;
+      top: 60px;
       left: 0;
       width: 100%;
       padding-left:0px;
@@ -221,7 +233,7 @@ p {
 }
 .intro {
   text-align: left;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'LineFont';
   font-size: 18px;
   margin: 10px 15px;
   color:#000000;
@@ -229,13 +241,13 @@ p {
 .desc {
   text-align: left;
   padding: 20px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'LineFont';
   font-size: 18px;
   color:#000000;
   }
 .intro2 {
   text-align: left;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'LineFont';
   padding-left:50px;
   font-size: 24px;
   color:#000000;
@@ -258,7 +270,7 @@ p {
 }
   .intro2 {
     text-align: left;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'LineFont';
     font-size: 18px;
     padding-left:0px;
     color:#000000;
@@ -290,7 +302,7 @@ p {
   .br-sp {display:block}
   .intro {
   text-align: left;
-  font-family: 'Noto Sans JP', serif;
+  font-family: 'LineFont';
   font-size: 16px;
   color:#000000;
   }
@@ -517,6 +529,7 @@ hr {
   padding: 10px 10px;
   width: 92%;
   background: #f1f1f1;
+  font-family:'LineFont';
   }
 
 .ribbon12 {
@@ -526,6 +539,7 @@ hr {
   padding: 10px;
   margin: 0 0 0 -30px;
   width: calc(100% + 40px);
+  font-family:'LineFont';
   font-size: 22px;
   color: white;
   background: #000;
@@ -564,7 +578,7 @@ hr {
 .blogmain{
   text-align:left;
   font-size: 18px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'LineFont';
   color: #000000;
   padding: 5px 15px;
 }
@@ -666,6 +680,7 @@ hr {
   border-bottom:2px solid #000000;
   text-align: left;
   display: block;
+  font-family: 'LineFont';
   }
 .clickbutton{
   width: 53vw; 
