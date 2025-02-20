@@ -660,24 +660,20 @@ hr {
 .clicktxt {
   width: 53vw; 
   color:#000000;
-  background-color: #ededed;
   padding-top:10px;
   padding-bottom:10px;
   padding-left: 15px;
-  border-radius: 10px;
-  border:2px solid #000000;
+  border-bottom:2px solid #000000;
   text-align: left;
   display: block;
   }
 .clickbutton{
   width: 53vw; 
   color:#000000;
-  background-color: #ededed;
   padding-top:10px;
   padding-bottom:10px;
   padding-left: 15px;
-  border-radius: 10px;
-  border:2px solid #000000;
+  border-bottom:2px solid #000000;
   text-align: left;
   display: block;
 }
@@ -685,53 +681,112 @@ hr {
   .clicktxt{
     width: 90vw;
     color:#000000;
-    background-color: #ededed;
     padding-top:10px;
     padding-bottom:10px;
     padding-left: 15px;
-    border-radius: 10px;
-    border:2px solid #000000;
+    border-bottom:2px solid #000000;
     text-align: left;
     display: block;
   }
   .clickbutton{
     width: 90vw; 
     color:#000000;
-    background-color: #ededed;
     padding-top:10px;
     padding-bottom:10px;
     padding-left: 15px;
-    border-radius: 10px;
-    border:2px solid #000000;
+    border-bottom:2px solid #000000;
     text-align: left;
     display: block;
   }
   
 }
 
-  
-  .switchdsp input {
-  display: none;
-  }
-  
-  .switchdsp .dsp {
-  padding: -60px 0px 0px 0px;
-  height: 0;
-  overflow: hidden;
-  transition: 0.9s;
-  opacity: 0;
-  }
-  
-  .switchdsp input:checked ~ .dsp {
-  padding: 0px 0px 0px 0px;
-  height: auto;
-  opacity: 1;
-  }
 
-  .fa-angle-down{
-    margin:0px 5px;
-  }
+.swiper{
+  position: relative;
+  width: 38vw;
+  height: 38vw;
+  margin-top: 20px;
+  z-index:0;
+}
 
-  .fa-external-link-alt{
-    margin:0px 5px;
+@media only screen and (max-width: 767px) {
+  .swiper{
+    position: relative;
+    width: 90vw;
+    height: 90vw;
+    margin: 0 auto;
+    z-index:0;
   }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.switchdsp input {
+display: none;
+}
+
+.switchdsp .dsp {
+padding: -60px 0px 0px 0px;
+height: 0;
+overflow: hidden;
+transition: 0.9s;
+opacity: 0;
+}
+
+.switchdsp input:checked ~ .dsp {
+padding: 0px 0px 0px 0px;
+height: auto;
+opacity: 1;
+}
+
+.fa-angle-down{
+  margin:0px 5px;
+}
+
+.fa-angle-right{
+  margin:0px 5px;
+}
+
+.circle {
+  position: absolute;
+  top: 300px;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: translate(-10vw, 0px);
+  }
+  30% {
+    transform: translate(25vw, -25px);
+  }
+  50% {
+    transform: translate(50vw, -40px);
+  }
+  70% {
+    transform: translate(75vw, -25px);
+  }
+  100% {
+    transform: translate(110vw, 0px);
+  }
+}
