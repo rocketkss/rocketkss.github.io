@@ -343,7 +343,7 @@ p {
   }
   .aboutusrow{
     position:relative;
-    top:650px;
+    top:650px !important;
   }
   .title2 {
     position: relative;
