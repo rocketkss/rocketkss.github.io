@@ -263,7 +263,14 @@ p {
   text-align: left;
   font-family: 'LineFont';
   font-size: 18px;
-  margin: 10px 0px;
+  margin: 10px 10px;
+  color:#000000;
+  }
+.intro4 {
+  text-align: left;
+  font-family: 'LineFont';
+  font-size: 18px;
+  margin: 10px 25px;
   color:#000000;
   }
 .desc {
