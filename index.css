@@ -7,6 +7,9 @@
 	src: url(LINESeedJP_A_TTF_Bd.ttf);
 }
 
+.centerimg{
+  text-align:center;
+}
 strong{
   font-family: 'LineFontEb';
 }
@@ -190,7 +193,7 @@ strong{
 
 .main3 {
   background-color:#fff;
-  height: 120px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -859,4 +862,70 @@ opacity: 1;
   100% {
     transform: translate(110vw, 0px);
   }
+}
+
+
+.toc-001 {
+  margin-bottom: 30px;
+  padding: 1em 1em 1em 2em;
+  border: 1px solid #999;
+  background-color: #f7f7f7;
+  color: #333333;
+}
+
+.toc-001 div {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.toc-001 div::before {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z' fill='%23333'%3E%3C/path%3E%3C/svg%3E");
+  content: '';
+}
+
+.toc-001 ol {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0 1.2em;
+  overflow: hidden;
+}
+
+.toc-001 ol ol {
+  margin-top: 5px;
+}
+
+.toc-001 li {
+  padding: 5px 0;
+}
+
+.toc-001 a {
+  color: #166c9d;
+}
+
+.contact {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+#kaushitoha {
+  scroll-margin-top: 110px;
+}
+#result {
+  scroll-margin-top: 110px;
+}
+#nagare {
+  scroll-margin-top: 110px;
+}
+#kitainituite {
+  scroll-margin-top: 110px;
+}
+#sekai {
+  scroll-margin-top: 110px;
 }
