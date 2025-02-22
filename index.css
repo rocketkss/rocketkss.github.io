@@ -68,6 +68,10 @@ strong{
     align-items: center;
     margin-bottom:0px;
   }
+
+  li::marker{
+    color: #151418;
+  }
   
   .menu a {
     display: block;
@@ -182,6 +186,7 @@ strong{
     background-size: cover;
     width: 100%;
 }
+
 
 .main2 {
   background-color:#000000;
