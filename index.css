@@ -9,6 +9,7 @@
 
 .centerimg{
   text-align:center;
+  margin: 25px auto;
 }
 strong{
   font-family: 'LineFontEb';
@@ -657,7 +658,7 @@ hr {
   width:100%;
   font-size: 18px;
   font-weight: bold;
-  margin: 10px auto;
+  margin: 15px auto;
 }
 
 
