@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小石川ロケット班</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../index.css">
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NHGQ3M5XCF');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <div class="logo">
+            <a href="../blog.html">小石川ロケット班Blog</a>
+          </div>
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+          <ul class="menu">
+            <li><a href="../blog.html">ブログトップ</a></li>
+            <li><a href="../contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="main3">
+        <div class="container2">
+            <div class="row">
+                <div class="return">
+                    ←<a href="../blog.html" style="color:deepskyblue">ブログトップに戻る</a>
+                </div>
+                <br>
+                <div class="blogtitle">
+                    <h2>ロケットの設計ソフト「OpenRocket」<br class="br-sp"></h2>
+                    <div class="continue">最終更新：2025/4/13　投稿：2025/4/13</div>
+                </div>
+                <div class="blogmain">
+                  <br>
+                  <div class="toc-001">
+                    <div>
+                        目次
+                    </div>
+                    <ol>
+                      <li><a href="#0">0　OpenRocketとは？</a></li>
+                      <li><a href="#1">1　インストール手順</a></li>
+                      <li><a href="#2">2　メイン画面</a></li>
+                      <li><a href="#3">3　初期設定</a></li>
+                      <li><a href="#4">4　使い方</a></li>
+                      <li><a href="#5">5　シミュレーション</a></li>
+                        </li>
+                    </ol>
+                  </div>
+
+                  モデルロケットを作るにあたって、最初に行うべきことはロケットの設計です。<br>
+                  どんなに優れたロケットでも、重心やバランスが悪いとまっすぐに飛ばすことはできません。<br>
+                  ロケット設計は制作の中で非常に重要なポイントです。今回は、ロケット設計に役立つソフトウェア<a href="https://openrocket.info/">「OpenRocket」</a>を紹介します。<br>
+
+                  <div class="blogindex" id="0">
+                    0　OpenRocketとは？
+                  </div>
+                  OpenRocketは、モデルロケットを設計、シミュレーションすることができるフリーソフトウェアです。<br>
+                  パソコンがあれば誰でも、簡単に、無料で、ロケットを設計することができます。
+                  <br>
+
+                  <div class="blogindex" id="1">
+                    1　インストール手順
+                  </div>
+                  1.	ブラウザで「OpenRocket」と検索するか、<a href="https://openrocket.info/" style="color:deepskyblue">ここ</a>からダウンロードページにアクセスしてください。<br>
+                  2.	ダウンロードページで、青いボタンをクリックしてインストールファイルをダウンロードします。<br>
+                  <div class="centerimg"><img src="./b-img/1.png" alt="ダウンロードページ" width="60%"></div>
+                  3.	ダウンロード出来たら、ダウンロードファイルにある『OpenRocket-Windows.exe』をダブルクリックして開く。 <br>
+                  4.	すると、下のようなインストールウィンドウが出てくるので特に問題がなければ「Next」をクリックします。 <br>
+                  <div class="centerimg"><img src="./b-img/2.png" alt="インストールウィンドウ" width="60%"></div>
+                  5.	デスクトップにアイコンが出てきたらインストール成功です。<br>
+                  <div class="centerimg"><img src="./b-img/3.png" alt="アイコン" width="30%"></div>
+       
+
+                  <div class="blogindex" id="2">
+                    2　メイン画面
+                  </div>
+                  OpenRocketを起動するとこのような画面になります。これがOpenRocketのメイン画面になります。<br>
+                  ①　「ロケットデザイン」でロケットの設計に関する編集をすることができます。<br>
+                  ②　「Motor&Configuration」でエンジンに関する編集をすることができます。<br>
+                  ③　「フライトシミュレーション」でロケットの打ち上げのシミュレーションを行うことができます。<br>
+                  ④　ロケットの部品を追加・編集して、ロケットの設計をします。<br>
+                  ⑤　機体の外観が表示されます。ロケットの情報(全長や重量、最大高度など)を確認できます。<br>
+                  <div class="centerimg"><img src="./b-img/4.png" alt="メイン画面" width="60%"></div>
+
+
+                  <div class="blogindex" id="3">
+                    3　初期設定
+                  </div>
+                  OpenRcketを使いやすくするために初期設定を整えましょう。<br>
+                  画面上部のタブから「編集」ボタンをクリックして、一番下の「設定」を開きます。<br>
+                  <div class="centerimg"><img src="./b-img/5.png" alt="初期設定" width="40%"></div>
+                  もし言語設定が日本語以外になっている場合、オプションから「日本語」を選びましょう。<br>
+                  <div class="centerimg"><img src="./b-img/6.png" alt="言語設定" width="60%"></div>
+                  使いやすい単位に自分でカスタマイズすることができます。<br>
+                  <div class="centerimg"><img src="./b-img/7.png" alt="単位" width="60%"></div>
+                  cmよりmmのほうが便利だったりするので、お好みで設定しましょう。<br>
+                  また、ロケット甲子園では目標高度がフィート（ft）単位で設定されているので、単位をftにしておくと換算の手間が省けて便利です。<br>
+                  発射地点の環境条件や発射台の角度も設定できるので、より精度の高いシミュレーションが可能になります。<br>
+                  <div class="centerimg"><img src="./b-img/8.png" alt="環境条件" width="60%"></div>
+                  
+                  
+                  <div class="blogindex" id="4">
+                    4　使い方
+                  </div>
+                  <div class="blogsindex">4.1 部品を追加して形を作る</div>
+                 では実際にOpenRocketを使ってロケットを設計してみましょう。まずはノーズコーンを追加してみます。<br>
+                 ノーズコーンの追加ボタンをクリックします。<br>
+                 <div class="centerimg"><img src="./b-img/9.png" alt="ノーズ" width="60%"></div>
+                 すると、このようなポップアップが出てきますが、気にせず閉じてしまって大丈夫です。<br>
+                 <div class="centerimg"><img src="./b-img/10.png" alt="ポップアップ" width="60%"></div>
+                 ここでノーズコーンの長さや直径を設定できます。<br>
+                 <div class="centerimg"><img src="./b-img/11.png" alt="ノーズコーン" width="60%"></div>
+                 ノーズコーンを追加出来たら、同じようにボディーチューブを追加してみましょう。<br>
+                 次はフィンを追加します。今回は台形フィンを使ってみます。(ほかにも楕円形や自由形、チューブ形などの形状があります。)<br>
+                 ボディーチューブを選択した状態で台形フィンをクリックします。 <br>
+                 <div class="centerimg"><img src="./b-img/13.png" alt="フィン" width="60%"></div>       
+                 ここまでくるとロケットらしい形になってきたと思います。<br>
+                 <div class="centerimg"><img src="./b-img/14.png" alt="全体像" width="60%"></div>
+           
+                 <div class="blogsindex">4.2 エンジン</div>
+                 ロケットが出来上がったらエンジンを装填してみましょう。まず、エンジンを装填するための「インナーチューブ」を追加します。<br>
+                 ボディーチューブを選択して、インナーチューブのボタンをクリックします。<br>
+                 <div class="centerimg"><img src="./b-img/15.png" alt="インナー" width="60%"></div>
+                 インナーチューブを追加出来たら上のタブから「Motor&Configuration」に移動します。モーターマウントからインナーチューブのチェックボックスを選択し、新しいモーターをクリックします。<br>
+                 <div class="centerimg"><img src="./b-img/16.png" alt="インナー" width="60%"></div> 
+                 このような画面になると思います。この中から使うエンジンを選びます。<br>
+                 1⃣エンジンの名前からエンジンを検索できます。使うエンジンが決まっている場合はここから検索して探しましょう。<br>
+                 2⃣エンジンのメーカーでエンジンを絞ることができます。A~C型エンジンならEstesが多いと思います。<br>
+                 3⃣トータルインパルスでエンジンを絞ることができます。どれくらいの大きさのロケットを作るかは決めているけど、どのエンジンを使うかは詳しく決まっていないときはエンジンの推力で候補を絞っていろいろなエンジンを見てみるといいです。<br>
+                 4⃣エンジンの長さや直径からエンジンを探すことができます。<br>
+                 <div class="centerimg"><img src="./b-img/17.png" alt="エンジン" width="60%"></div>
+                 目当てのエンジンが見つかったらOKを押しましょう。<br>
+                 今回は全国大会の機体を想定して作るので1/2A6エンジンにします。<br>
+                 こんな感じでモーターコンフィギュレーションに装填したエンジンが表示され、画面左下に最大高度や最大速度がでていたら大丈夫です。<br>
+                 <div class="centerimg"><img src="./b-img/18.png" alt="エンジン完了" width="60%"></div>
+           
+                 <div class="blogsindex">4.3 設計をより緻密にしていく</div>
+                 エンジンを装備したことで、最大高度や最大速度が表示されるようになりました。しかし、まだパラシュートやエンジンブロックなどの必要な部品が欠けているため、ロケットをより完成に近づけるために設計をさらに緻密にしていきましょう。<br>
+                 すでに追加された部品を編集するには、編集したい部品を選択して、画面真ん中の編集ボタンを押します。<br>
+                 <div class="centerimg"><img src="./b-img/19.png" alt="編集" width="40%"></div>
+                 「Plaoment」で部品の位置を変えられます。前に移動したり後ろに移動したりできます。<br>
+                 <div class="centerimg"><img src="./b-img/20.png" alt="位置調整" width="40%"></div>
+                 ノーズコーンにはさまざまな形状があります。<br>
+                 <div class="centerimg"><img src="./b-img/21.png" alt="形状" width="60%"></div>
+                 OpenRocketでは、部品の体積と密度を元に自動で質量を計算してくれます。<br>
+                 部品材料を変更して、設計値と実際の部品の重さができるだけ一致するように調整しましょう。<br>
+                 部品材料を「カスタム」にすれば、部品の密度を0.001g単位で自由に変更できます。<br>
+                 <div class="centerimg"><img src="./b-img/22.png" alt="重さの変更" width="40%"></div>
+                 また、部品の重さを任意の値に設定することも可能です。「再定義」ボタンを押し、「質量の再定義」にチェックを入れると、部品の重さを自由に変更できます。<br>
+                 <div class="centerimg"><img src="./b-img/23.png" alt="再定義" width="40%"></div>
+                 密度で質量を計算するよりも実際の重さを測り、それに基づいて再定義した方が正確で誤差が生じにくいため、すべての部品の重さを再定義することをお勧めします。 <br>
+                 設計に忠実にロケットを作ることは重要ですが、どうしても実際に作ってみたロケットの重さと設計の値には誤差が生まれてしまいます。<br>
+                 そんなときは実際のロケットに合わせて設計を修正していく必要があります。<br>
+
+                 <div class="blogsindex">4.4 安定性の調節</div>
+                 ロケットが安定してまっすぐ飛ぶためには重心(CG)が圧力中心(CP)より前にある必要があります。<br>
+                 この重心(CG)と圧力中心(CP)の位置の調節がロケットの設計において最も重要なポイントです。<br>
+                 安定性とはロケットの重心と圧力中心の距離を表す指標です。<br>
+                 一般的には安定性は1.0前後がよいとされています。ここで注意したいのは、安定性は高いほどロケットが安定して飛ぶというわけではないことです。安定性は高すぎても低すぎてもロケットはまっすぐ飛びません。<br>
+                 <div class="centerimg"><img src="./b-img/24.png" alt="安定性" width="60%"></div> 
+                 この安定性が1.0になるように設計を調節していきます。<br>
+                 この設計では安定性が-0.309なのでこのままでは墜落していまいます。<br>
+                 安定性を上げるには、<br>
+                 ①重心を前にする<br>
+                 ②圧力中心を後ろに下げる<br>
+                 この2つの方法があります。<br>
+                 <b>➀重心を前にする</b><br>
+                 重心を前にするには、先端のノーズコーンにおもりを積んでロケットの前側を重くするか、後ろの部品を軽くする方法があります。逆に、重心を後ろに下げて安定性を下げる場合は、エンジンを後方に移動させるなどの方法があります。
+                 <br>
+                 <b>②圧力中心を後ろに下げる</b><br>
+                 圧力中心を下げるには、フィンの形を変えましょう。<br>
+                 基本的には、フィンを大きくすると圧力中心は後ろに移動し、フィンを後退させることで圧力中心がさらに後ろに位置します。 <br>
+                 <div class="centerimg"><img src="./b-img/25.png" alt="フィンの形状" width="40%"></div>
+                 また、フィンの枚数を増やすと圧力中心は後ろにいきます。<br>
+                 フィンの枚数は3枚以上にすることを推奨します。3枚より少ないと、空気の当たり方が均等でなかったり不安定になってしまいます。<br>
+                 <div class="centerimg"><img src="./b-img/26.png" alt="フィンの枚数" width="40%"></div> 
+                 ノーズコーンにおもりをつみ、フィンを後退させて安定性を0.96まで上げました。<br>
+                 最大高度は86m、最大速度は59.1m/sとなっています。<br>
+                 いい感じですね。
+                 <div class="centerimg"><img src="./b-img/27.png" alt="完成" width="60%"></div> 
+                 
+                 <div class="blogsindex">4.5 ファイルを出力する</div>
+                 <b>1 名前を付けて保存</b><br>
+                 設計が完成したら設計ファイルを保存しましょう。<br>
+                 「ファイル」から「名前を付けて保存」を選択し、名前をつけて好きな場所に保存します。<br>
+                 <div class="centerimg"><img src="./b-img/28.png" alt="名前を付けて保存" width="40%"></div> 
+                 <b>2 Export as</b><br>
+                 「Export as」から設計ファイルをほかの形式で出力することもできます。<br>
+                 OpenRocketとは別のロケット設計ソフトのRASAeroやRockSimに対応した設計ファイルに変換して出力できます。<br>
+                 また、3Dプリンター用にobjファイルで出力することもできます。<br>
+                 <div class="centerimg"><img src="./b-img/29.png" alt="Export as" width="40%"></div>  
+                 <b>3 印刷/PDFにエクスポート</b><br>
+                 「印刷/PDFにエクスポート」でロケットの設計図を作ることができます。紙に印刷してロケットを作るときに活用しましょう。<br>
+                 <div class="centerimg"><img src="./b-img/30.jpg" alt="印刷" width="60%"></div> 
+
+                 
+                 <div class="blogindex" id="5">
+                  5　シミュレーション
+                </div>
+                ロケットの設計が出来上がったら打ち上げのシミュレーションをしてみましょう。<br>
+                赤枠の部分に打ち上げのシミュレーション結果が表示されます。<br>
+                1⃣ローンチロッド離脱速度…ロケットがローンチロッド(発射台のレール)から離れる時の速度。離脱速度が遅すぎると離脱直後に風に影響されて飛行が不安定になることがある。<br>
+                2⃣遠地点…ロケットの最大高度<br>
+                3⃣展開時速度…パラシュート(ストリーマー)が展開するときのロケットの速度<br>
+                4⃣Optimum delay…理想的なエンジンの延時時間。エンジンがこの延時時間のとき、ロケットは最高高度で回収機構を展開できる。<br>
+                5⃣最大速度…打ち上げの最高速度。<br>
+                6⃣最大加速度…打ち上げでかかる最大の加速度。<br>
+                7⃣遠地点の時刻…ロケットが最高高度に達したときの時間。<br>
+                8⃣フライト時間…エンジンに点火してから地面に着陸するまでの時間。<br>
+                9⃣地面衝突速度…地面に着陸するときの速度。<br>
+                <div class="centerimg"><img src="./b-img/31.png" alt="シミュレーション" width="60%"></div>  
+                OpenRocketではシムレーション結果をグラフにすることができます。「プロット・エクスポート」をクリックするとこのようなウィンドウが出てくるので、グラフにしたいもの(高度や速度、推力、抗力係数など)を指定して「Plot」を押すと<br>
+                <div class="centerimg"><img src="./b-img/32.png" alt="プロット・エクスポート" width="60%"></div> 
+                このようなグラフが出来上がります。<br>
+                <div class="centerimg"><img src="./b-img/33.png" alt="グラフ" width="60%"></div> 
+                条件を変えて違うシミュレーションをしたいときは、新規作成を押すと、エンジンや細かい条件を変えて新しいシミュレーションを作ることができます。<br>
+                <div class="centerimg"><img src="./b-img/34.png" alt="新規作成" width="60%"></div> 
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <footer class="footer">
+            <br>
+            <div class="row">
+              <div class="col-3"></div>
+              <div class="col-2">
+                <a href="https://x.com/rocket_kss"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.instagram.com/rocket_kss/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.youtube.com/@rocket_kss"><i class="fa-brands fa-youtube fa-2x"></i></a>
+              </div>
+              <div class="col-3"></div>
+          </div>
+              <br>
+              <span class="copyright">
+                都小石川中等　物理研究会　ロケット班
+              </span>
+              <br>
+              <span class="copyright">
+                ✉rocket.koishikawa@gmail.com
+              </span>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
