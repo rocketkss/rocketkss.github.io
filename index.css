@@ -109,7 +109,7 @@ strong{
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    width: 260px;
+    width: 400px;
     padding: 1rem 4rem;
     margin: 10px auto;
     font-weight: bold;
@@ -255,6 +255,13 @@ h2{
   color:#000000;
 }
 .h2-1{
+  font-family: 'Kiwi Maru', serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top:20px;
+  color:#000000;
+}
+.h2s{
   font-family: 'Kiwi Maru', serif;
   font-size: 40px;
   text-align: center;
@@ -942,4 +949,28 @@ opacity: 1;
 }
 #sekai {
   scroll-margin-top: 110px;
+}
+
+
+.siyuu{
+  display: block; 
+  margin: 0 auto;
+  width: 640px;
+}
+
+@media only screen and (max-width: 767px) {
+  .siyuu{
+    width: 80%;
+  }
+  
+  a.support {
+    width: 260px;
+  }
+  .h2s{
+  font-family: 'Kiwi Maru', serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top:20px;
+  color:#000000;
+}
 }
