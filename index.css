@@ -7,6 +7,20 @@
 	src: url(LINESeedJP_A_TTF_Bd.ttf);
 }
 
+.youtube{
+  width: 560px;
+  height: 315px;
+  display: inline-block;
+}
+
+.crowd{
+  width: 300px;
+  display: inline-block;
+}
+
+.crowdcontainer{
+  text-align: center;
+}
 .centerimg{
   text-align:center;
   margin: 25px auto;
@@ -207,7 +221,7 @@ strong{
 .container {
     max-width: 100%;
     position: relative;
-    top: 700px;
+    top: 300px;
     padding: 0px 0px;
     margin: 10px 0px
     
@@ -244,7 +258,7 @@ strong{
 h1{
   font-family: 'Kiwi Maru', serif;
   text-align: center;
-  font-size: 80px;
+  font-size: 72px;
   color:#fff
 }
 h2{
@@ -383,11 +397,20 @@ p {
   .container {
     max-width: 100%;
     position: relative;
-    top: 600px;
+    top: 360px;
     padding: 0px 0px;
     margin: 10px 0px
     
   }
+  .youtube{
+    width: 90vw;
+    height: 50.6vw;
+    display: inline-block;
+  }
+  .crowd{
+  width: 75vw;
+  display: inline-block;
+}
 }
 section {
     padding: 95% 0px;
@@ -400,8 +423,9 @@ hr {
 
 
 .title {
+  text-align: center;
   position: relative;
-  top: 350px;
+  top: 200px;
 }
 
 .box {
@@ -416,11 +440,10 @@ hr {
 .sponser {
   padding-top: 15px;
   padding-bottom: 60px;
-  padding-left:10px;
+  padding-left:15px;
   padding-right:10px;
   margin: 0px 15px;
   border: solid 3px #000000;
-  text-align: center;
   font-family: 'Kiwi Maru', serif;
   font-size: 20px;
 }
