@@ -223,9 +223,18 @@ strong{
     position: relative;
     top: 300px;
     padding: 0px 0px;
+    margin: 10px 0px  
+  }
+
+.container-blog {
+    max-width: 100%;
+    position: relative;
+    top: 620px;
+    padding: 0px 0px;
     margin: 10px 0px
     
   }
+
 .container3 {
   width: 92vw;
   position: relative;
